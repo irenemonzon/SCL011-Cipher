@@ -6,9 +6,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+   
+
+    <div id="contenedor" class= "contenedor2">
+
+      <div id= "welcome">
+          <h1> Bienvenido(a)  </h1> 
+          <h1> A la plataforma de mensajeria Cesar</h1><br>
+          <label for="name">Ingrese su nombre por favor</label>
+          <input type="text" id="name"  placeholder="Nombre usuario"><br>
+          <button  id="mensaje1"> escribir mensaje </button>
+          
+      </div>
+  
+      
+      <div id= "mensajeria">
+          <h1>Mensajeria Cesar</h1>
+          <p id= "nombre" ></p>
+          <textarea id="escrito" cols="20" rows="15" value ="" placeholder="Ingrese mensaje a enviar" ></textarea><br>
+          <label for="name">Codigo de desplazamiento</label><br>
+          <input type="text" id="codigo"  placeholder="Ingrese Codigo" value=""><br>
+          <button  id="enviarmensaje"> Enviar mensaje </button>
+      </div>
+  
+      <div id="encriptar">
+  
+          <h1>Mensajeria Cesar</h1>
+  
+          <textarea id="mensajeoculto" cols="20" rows="15" value ="mensaje3" ></textarea><br>
+          <textarea id="mensajetraducido" cols="20" rows="15" value ="mensaje4" ></textarea><br>
+          <button  id="descifrar"> Traducir  </button>
+          <button  id="volver"> Responder </button>
+      </div>
+     
+      </div>
+ 
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

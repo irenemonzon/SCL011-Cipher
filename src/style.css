@@ -1,1 +1,53 @@
-/* Acá va tu código */
+#mensajeria {
+
+    display:none;
+ 
+ }
+ #encriptar{
+ 
+     display:none;
+ 
+ }
+ #descifrado{
+ 
+     display:none;
+     
+ }
+ #contenedor{
+     width: 900px;
+     height:600px;
+     padding: 30px 30 px;
+     border-radius: 20px;
+     background-color: rgb(40, 161, 151);
+ 
+ }
+ #name{
+  color: rgb(70, 5, 61);
+ }
+ body{
+     background-color: white;
+ 
+ }
+ 
+ h1{
+    text-align: center;
+    color: rgb(70, 5, 61);
+    background-color:  blue;
+    border: 10px solid black;
+    margin-top: 30px;
+ }
+ button{
+     margin-top: 10px;
+     border-radius: 7px;
+     padding-top: 10px;
+     padding-bottom:10px;
+     text-align: center;
+     width: 20%; background: blue;
+     color:rgb(182, 194, 10);
+   }
+   textarea{
+     
+     width:400px;
+     height:100px;
+     border: 2px solid #990000;
+   }
