@@ -13,26 +13,43 @@
      display:none;
      
  }
- #contenedor{
-     width: 900px;
-     height:600px;
-     padding: 30px 30 px;
-     border-radius: 20px;
-     background-color: rgb(40, 161, 151);
+
+ body {
+
+    background-image:url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/06/29122306/Privacidad-Portada-Interior.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Helvetica;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+     
+    }
+
+    #contenedor {
+
+        opacity: 0.9;
+        background-image: none;
+        background-origin: padding-box;
+        margin: 0 auto;
+        width: 922px;
+       
+    }
+
+ .name{
+ 
+  color: rgb(61,11,2);
+  text-align: center
  
  }
- #name{
-  color: rgb(70, 5, 61);
- }
- body{
-     background-color: white;
  
- }
  
  h1{
-    text-align: center;
-    color: rgb(70, 5, 61);
-    background-color:  blue;
+    text-align:center;
+    color: rgb(61, 11, 2);
+    background-color:  rgb(0, 162, 255);
     border: 10px solid black;
     margin-top: 30px;
  }
@@ -42,12 +59,17 @@
      padding-top: 10px;
      padding-bottom:10px;
      text-align: center;
-     width: 20%; background: blue;
-     color:rgb(182, 194, 10);
+     width: 20%; background: rgb(95, 4, 4);
+     color:white;
    }
    textarea{
      
      width:400px;
      height:100px;
      border: 2px solid #990000;
+   }
+   input{
+ 
+     
+     border: solid #990000;
    }

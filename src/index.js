@@ -48,13 +48,18 @@ descifrado.addEventListener("click", () => {
 
 const responder = document.getElementById("volver");
 responder.addEventListener("click", () => {
+
    
+    
     document.getElementById("codigo").value = "";
+   // document.getElementById("mensajetraducido").value = "";
 
     const divHidden = document.getElementById("mensajeria");
     divHidden.style.display = "block";
     const divHidden2 = document.getElementById("encriptar");
     divHidden2.style.display = "none";
+
+    
 
 });
 
