@@ -50,7 +50,6 @@ const responder = document.getElementById("volver");
 responder.addEventListener("click", () => {
 
    
-    
     document.getElementById("codigo").value = "";
    // document.getElementById("mensajetraducido").value = "";
 
